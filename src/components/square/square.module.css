@@ -1,0 +1,17 @@
+.square {
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+	font-size: 24px;
+	background-color: #0af;
+	border: 1px solid #0af;
+	color: #0a0a0a;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.square:hover {
+	background-color: #000;
+	color: #0af;
+	border-color: #0af;
+}
+
